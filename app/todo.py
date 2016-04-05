@@ -19,7 +19,7 @@ class Index:
     form = web.form.Form(
         web.form.Textbox('title', web.form.notnull, 
             description="I need to:"),
-        web.form.Button('Add todo'),
+        web.form.Button('Add to do'),
     )
 
     def GET(self):
